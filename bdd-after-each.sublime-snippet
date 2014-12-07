@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+afterEach(function () {
+	${0:// body}
+});
+]]></content>
+    <tabTrigger>ae</tabTrigger>
+    <scope>source.js</scope>
+    <description>BDD after each</description>
+</snippet>

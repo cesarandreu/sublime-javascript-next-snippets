@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+it('${1:statement}', function* () {
+	${0:// body}
+});
+]]></content>
+    <tabTrigger>itg</tabTrigger>
+    <scope>source.js</scope>
+    <description>BDD it (generator)</description>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+beforeEach(function () {
+	${0:// body}
+});
+]]></content>
+    <tabTrigger>be</tabTrigger>
+    <scope>source.js</scope>
+    <description>BDD before each</description>
+</snippet>
