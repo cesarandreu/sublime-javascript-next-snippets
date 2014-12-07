@@ -31,7 +31,7 @@ git clone git://github.com/cesarandreu/sublime-javascript-next-snippets.git %APP
 
 #### console.assert
 
-**trigger:** `ca`
+trigger: `ca`
 
 ```javascript
 console.assert(expr, 'msg');
@@ -39,7 +39,7 @@ console.assert(expr, 'msg');
 
 #### console.count
 
-**trigger:** `cc`
+trigger: `cc`
 
 ```javascript
 console.count('label');
@@ -47,7 +47,7 @@ console.count('label');
 
 #### console.dir
 
-**trigger:** `cd`
+trigger: `cd`
 
 ```javascript
 console.dir(obj);
@@ -55,7 +55,7 @@ console.dir(obj);
 
 #### console.error
 
-**trigger:** `ce`
+trigger: `ce`
 
 ```javascript
 console.error(err);
@@ -63,7 +63,7 @@ console.error(err);
 
 #### console.log
 
-**trigger:** `cl`
+trigger: `cl`
 
 ```javascript
 console.log(msg);
@@ -71,7 +71,7 @@ console.log(msg);
 
 #### console.trace
 
-**trigger:** `ct`
+trigger: `ct`
 
 ```javascript
 console.trace(err);
@@ -82,7 +82,7 @@ console.trace(err);
 
 #### anonymous function
 
-**trigger:** `afn`
+trigger: `afn`
 
 ```javascript
 function (args) {
@@ -92,7 +92,7 @@ function (args) {
 
 #### generator function
 
-**trigger:** `gfn`
+trigger: `gfn`
 
 ```javascript
 function* name (args) {
@@ -102,7 +102,7 @@ function* name (args) {
 
 #### named function
 
-**trigger:** `fn`
+trigger: `fn`
 
 ```javascript
 function name (args) {
@@ -112,7 +112,7 @@ function name (args) {
 
 #### variable function
 
-**trigger:** `vfn`
+trigger: `vfn`
 
 ```javacript
 var name = function name (args) {
@@ -122,7 +122,7 @@ var name = function name (args) {
 
 #### immediately-invoked function
 
-**trigger:** `iifn`
+trigger: `iifn`
 
 ```javacript
 (function () {
@@ -135,7 +135,7 @@ var name = function name (args) {
 
 #### if
 
-**trigger:** `if`
+trigger: `if`
 
 ```javascript
 if (condition) {
@@ -145,7 +145,7 @@ if (condition) {
 
 #### if else
 
-**trigger:** `ife`
+trigger: `ife`
 
 ```javascript
 if (condition) {
@@ -160,7 +160,7 @@ if (condition) {
 
 #### for
 
-**trigger:** `for`
+trigger: `for`
 
 ```javascript
 for (var i = 0; i < arr.length; i++) {
@@ -170,7 +170,7 @@ for (var i = 0; i < arr.length; i++) {
 
 #### improved for
 
-**trigger:** `fori`
+trigger: `fori`
 
 ```javascript
 for (var i = 0, len = arr.length; i < len; i++) {
@@ -180,7 +180,7 @@ for (var i = 0, len = arr.length; i < len; i++) {
 
 #### reverse for
 
-**trigger:** `forr`
+trigger: `forr`
 
 ```javascript
 for (var i = arr.length - 1; i >= 0; i--) {
@@ -190,7 +190,7 @@ for (var i = arr.length - 1; i >= 0; i--) {
 
 #### for-in
 
-**trigger:** `forin`
+trigger: `forin`
 
 ```javascript
 for (var prop in obj) {
@@ -205,7 +205,7 @@ for (var prop in obj) {
 
 #### require (CommonJS)
 
-**trigger:** `req`
+trigger: `req`
 
 ```javascript
 require('package')
@@ -216,7 +216,7 @@ require('package')
 
 #### BDD after each
 
-**trigger:** `afterEach`
+trigger: `afterEach`
 
 ```javascript
 afterEach(function () {
@@ -226,7 +226,7 @@ afterEach(function () {
 
 #### BDD before each
 
-**trigger:** `beforeEach`
+trigger: `beforeEach`
 
 ```javascript
 beforeEach(function () {
@@ -236,7 +236,7 @@ beforeEach(function () {
 
 #### BDD describe
 
-**trigger:** `desc`
+trigger: `desc`
 
 ```javascript
 describe('description', function () {
@@ -246,7 +246,7 @@ describe('description', function () {
 
 #### BDD it (async)
 
-**trigger:** `ita`
+trigger: `ita`
 
 ```javascript
 it('statement', function (done) {
@@ -256,7 +256,7 @@ it('statement', function (done) {
 
 #### BDD it (generators)
 
-**trigger:** `itg`
+trigger: `itg`
 
 ```javascript
 it('statement', function* () {
@@ -266,7 +266,7 @@ it('statement', function* () {
 
 #### BDD it (sync)
 
-**trigger:** `its`
+trigger: `its`
 
 ```javascript
 it('statement', function () {
@@ -279,7 +279,7 @@ it('statement', function () {
 
 #### setInterval
 
-**trigger:** `si`
+trigger: `si`
 
 ```javascript
 setInterval(function () {
@@ -289,7 +289,7 @@ setInterval(function () {
 
 #### setTimeout
 
-**trigger:** `st`
+trigger: `st`
 
 ```javascript
 setTimeout(function () {
