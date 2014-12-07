@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+console.count('${1:label}');${0}
+]]></content>
+    <tabTrigger>cc</tabTrigger>
+    <scope>source.js</scope>
+    <description>console.count</description>
+</snippet>
