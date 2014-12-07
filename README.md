@@ -301,8 +301,3 @@ setTimeout(function () {
 ## Inspiration
 
 To create this I shamelessly ripped and tweaked existing snippets, so thanks to all JavaScript snippets inside Package Control!
-
-
-## License
-
-MIT
