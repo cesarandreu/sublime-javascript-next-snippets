@@ -2,7 +2,7 @@
   "schema_version": "3.0.0",
   "packages": [{
     "name": "JavaScript Next snippets",
-    "details": "https://github.com/cesarandreu/sublime-javascript-next-snippets.git",
+    "details": "https://github.com/cesarandreu/sublime-javascript-next-snippets",
     "releases": [{
       "sublime_text": "*",
       "tags": true
