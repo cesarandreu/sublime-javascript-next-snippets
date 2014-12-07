@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+function* ${1:name} (${2:args}) {
+	${0:// body}
+}
+]]></content>
+    <tabTrigger>gfn</tabTrigger>
+    <scope>source.js</scope>
+    <description>generator function</description>
+</snippet>
