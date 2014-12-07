@@ -216,7 +216,7 @@ require('package')
 
 #### BDD after each
 
-**trigger:** `ae`
+**trigger:** `afterEach`
 
 ```javascript
 afterEach(function () {
@@ -226,7 +226,7 @@ afterEach(function () {
 
 #### BDD before each
 
-**trigger:** `be`
+**trigger:** `beforeEach`
 
 ```javascript
 beforeEach(function () {

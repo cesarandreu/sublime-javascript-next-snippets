@@ -4,7 +4,7 @@ afterEach(function () {
 	${0:// body}
 });
 ]]></content>
-    <tabTrigger>ae</tabTrigger>
+    <tabTrigger>afterEach</tabTrigger>
     <scope>source.js</scope>
     <description>BDD after each</description>
 </snippet>
