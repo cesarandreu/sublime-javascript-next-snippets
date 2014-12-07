@@ -7,7 +7,7 @@ I was unhappy with the state of existing snippets, so I created my own. Will be 
 
 ## Installation
 
-**WARNING:** Only tested on Mac OS X, other paths found from (Sublime Text Unofficial Documentation)[http://docs.sublimetext.info/en/latest/] and may be inaccurate
+**WARNING:** Only tested on Mac OS X, other paths found from [Sublime Text Unofficial Documentation](http://docs.sublimetext.info/en/latest/) and may be inaccurate
 
 ### Mac OS X
 ```sh
