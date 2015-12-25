@@ -1,8 +1,8 @@
 <snippet>
     <content><![CDATA[
-afterEach(function () {
+afterEach(() => {
 	${0:// body}
-});
+})
 ]]></content>
     <tabTrigger>afterEach</tabTrigger>
     <scope>source.js</scope>

@@ -1,8 +1,8 @@
 <snippet>
     <content><![CDATA[
-setInterval(function () {
+setInterval(() => {
 	${0:// body}
-}, ${1:ms});
+}, ${1:ms})
 ]]></content>
     <tabTrigger>si</tabTrigger>
     <scope>source.js</scope>

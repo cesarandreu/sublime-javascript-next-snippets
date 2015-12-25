@@ -34,7 +34,7 @@ git clone git://github.com/cesarandreu/sublime-javascript-next-snippets.git %APP
 trigger: `ca`
 
 ```javascript
-console.assert(expr, 'msg');
+console.assert(expr, 'msg')
 ```
 
 #### console.count
@@ -42,7 +42,7 @@ console.assert(expr, 'msg');
 trigger: `cc`
 
 ```javascript
-console.count('label');
+console.count('label')
 ```
 
 #### console.dir
@@ -50,7 +50,7 @@ console.count('label');
 trigger: `cd`
 
 ```javascript
-console.dir(obj);
+console.dir(obj)
 ```
 
 #### console.error
@@ -58,7 +58,7 @@ console.dir(obj);
 trigger: `ce`
 
 ```javascript
-console.error(err);
+console.error(err)
 ```
 
 #### console.log
@@ -66,7 +66,7 @@ console.error(err);
 trigger: `cl`
 
 ```javascript
-console.log(msg);
+console.log(msg)
 ```
 
 #### console.trace
@@ -74,18 +74,18 @@ console.log(msg);
 trigger: `ct`
 
 ```javascript
-console.trace(err);
+console.trace(err)
 ```
 
 
 ### functions
 
-#### anonymous function
+#### async function
 
 trigger: `afn`
 
 ```javascript
-function (args) {
+async function name (args) {
   // body
 }
 ```
@@ -95,7 +95,7 @@ function (args) {
 trigger: `gfn`
 
 ```javascript
-function* name (args) {
+function * name (args) {
   // body
 }
 ```
@@ -108,26 +108,6 @@ trigger: `fn`
 function name (args) {
   // body
 }
-```
-
-#### variable function
-
-trigger: `vfn`
-
-```javacript
-var name = function name (args) {
-  // body
-};
-```
-
-#### immediately-invoked function
-
-trigger: `iifn`
-
-```javacript
-(function () {
-  // body
-})();
 ```
 
 
@@ -219,9 +199,9 @@ require('package')
 trigger: `afterEach`
 
 ```javascript
-afterEach(function () {
+afterEach(() => {
   // body
-});
+})
 ```
 
 #### BDD before each
@@ -229,9 +209,9 @@ afterEach(function () {
 trigger: `beforeEach`
 
 ```javascript
-beforeEach(function () {
+beforeEach(() => {
   // body
-});
+})
 ```
 
 #### BDD describe
@@ -239,39 +219,19 @@ beforeEach(function () {
 trigger: `desc`
 
 ```javascript
-describe('description', function () {
+describe('description', () => {
   // body
-});
+})
 ```
 
-#### BDD it (async)
-
-trigger: `ita`
-
-```javascript
-it('statement', function (done) {
-  // body
-});
-```
-
-#### BDD it (generators)
-
-trigger: `itg`
-
-```javascript
-it('statement', function* () {
-  // body
-});
-```
-
-#### BDD it (sync)
+#### BDD it
 
 trigger: `its`
 
 ```javascript
-it('statement', function () {
+it('statement', () => {
   // body
-});
+})
 ```
 
 
@@ -282,9 +242,9 @@ it('statement', function () {
 trigger: `si`
 
 ```javascript
-setInterval(function () {
+setInterval(() => {
   // body
-}, ms);
+}, ms)
 ```
 
 #### setTimeout
@@ -292,9 +252,9 @@ setInterval(function () {
 trigger: `st`
 
 ```javascript
-setTimeout(function () {
+setTimeout(() => {
   // body
-}, ms);
+}, ms)
 ```
 
 

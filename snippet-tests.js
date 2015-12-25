@@ -19,10 +19,6 @@ gfn
 
 fn
 
-vfn
-
-iifn
-
 
 // control flow
 if
@@ -50,10 +46,6 @@ afterEach
 beforeEach
 
 desc
-
-ita
-
-itg
 
 its
 

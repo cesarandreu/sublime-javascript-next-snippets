@@ -1,10 +1,10 @@
 <snippet>
     <content><![CDATA[
-it('${1:statement}', function () {
+it('${1:statement}', () => {
 	${0:// body}
-});
+})
 ]]></content>
     <tabTrigger>its</tabTrigger>
     <scope>source.js</scope>
-    <description>BDD it (sync)</description>
+    <description>BDD it</description>
 </snippet>
